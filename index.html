@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <header>
+        <h1>Conversor de Moedas</h1>
+        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+            <lord-icon
+            src="https://cdn.lordicon.com/qhviklyi.json"
+            trigger="loop"
+            delay="2000"
+            colors="primary:#121331,secondary:#08a88a"
+            style="width:60px;height:60px">
+            </lord-icon>
+    </header>
+    <main>
+        <section>
+
+            <div id="conversor-container">
+                <div class="conversor_conteudo">
+                    <label for="valor">Valor a ser convertido</label>
+                    <input type="number" name="valor" id="valor" required min="0" placeholder="R$">
+                </div>
+
+                <div class="conversor_conteudo">
+                    <label for="moedas">Escolha a Moeda</label>
+                    <select name="moedas" id="moedas" required>
+                        <option value="Selecione" disabled selected>Selecione</option>
+                        <option value="Dolar">Dolar</option>
+                        <option value="Euro">Euro</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div id="botao-converter">
+                <button type="submit" onclick="botao()">Converter <span id="cifrao">$</span></button>
+                <div>
+                    <span id="emoji-money">💵 <span id="total">-</span> 💵</span>
+                </div>
+            </div>
+
+            
+
+        </section>
+    </main>
+    <footer>
+        <span id="copy">
+            &copy; Desenvolvido por Enzo Romeiro, 2023
+        </span>
+        <span>
+            <h2> créditos</h2>
+            <a href="https://lordicon.com/">Icons by Lordicon.com</a>
+        </span>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
