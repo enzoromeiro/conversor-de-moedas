@@ -1,0 +1,167 @@
+@media (max-width: 800px) {
+
+    /*Conteúdo*/
+    .conversor_conteudo {
+        margin: 45px;
+    }
+
+    .conversor_conteudo label {
+        font-size: 2.1rem;
+    }
+}
+
+@media (max-width: 575px) {
+
+    /*Conteúdo*/
+    #conversor-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conversor_conteudo {
+        margin: 35px;
+    }
+
+    .conversor_conteudo label {
+        font-size: 2.7rem;
+    }
+
+    .conversor_conteudo input, select {
+        width: 220px;
+    }
+
+    #botao-converter {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 455px) {
+
+    /*Header*/
+    header h1 {
+        font-size: 2.0rem;
+    }
+
+    #moedas-icon {
+        width: 50px;
+        height:50px
+    }
+
+    /*Conteúdo*/
+
+    .conversor_conteudo label {
+        font-size: 2.2rem;
+    }
+
+    .conversor_conteudo input, select {
+        width: 185px;
+    }
+
+    #botao-converter button {
+        margin-bottom: 80px;
+        width: 160px;
+        height: 38px;
+        font-size: 1.2rem; 
+    }
+
+    /*Animações*/
+
+    #botao-converter button:hover {
+        width: 160px;
+        height: 38px;
+        margin-bottom: 80px;
+        transition: 0.1s;
+    }
+
+    #botao-converter button:active {
+        width: 150px;
+        height: 33px;
+        margin-bottom: 85px;
+    }
+}
+
+@media (max-width: 281px) {
+
+    /*Header*/
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    #moedas-icon {
+        width: 50px;
+        height:50px
+    }
+
+    /*Conteúdo*/
+
+    .conversor_conteudo label {
+        font-size: 1.5rem;
+    }
+
+    .conversor_conteudo input, select {
+        width: 180px;
+    }
+
+    #botao-converter button {
+        margin-bottom: 80px;
+        width: 140px;
+        height: 35px;
+        font-size: 1.2rem; 
+    }
+
+    /*Footer*/
+
+    footer {
+        height: 60px;
+        font-size: 1.0rem;
+    }
+
+
+    /*Animações*/
+
+    #botao-converter button:hover {
+        width: 160px;
+        height: 38px;
+        margin-bottom: 80px;
+        transition: 0.1s;
+    }
+
+    #botao-converter button:active {
+        width: 150px;
+        height: 33px;
+        margin-bottom: 85px;
+    }
+}
+
+/*Altura*/
+
+@media (max-height: 740px) {
+    #botao-converter {
+        height: 200px;
+    }
+}
+
+@media (max-height: 670px) {
+    #conversor-container {
+        margin-top: 75px;
+    }
+
+    #botao-converter {
+        padding-top: 10px;
+        height: 170px;
+    }
+
+    #botao-converter button {
+        margin-bottom: 40px;
+    }
+
+    main {
+        height: 80%;
+    }
+}
+
+
