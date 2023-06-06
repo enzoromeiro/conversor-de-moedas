@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function(event) {
+    alert ('A cotação não é feita em tempo real, os resultados são aproximados.');
+});
+
 
 function botao() {
     let valor = Number(document.getElementById ('valor').value)
