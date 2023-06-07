@@ -142,8 +142,19 @@
 /*Altura*/
 
 @media (max-height: 740px) {
+    header {
+        height: 100px;
+        position: absolute;
+    }
+
     #botao-converter {
         height: 200px;
+    }
+
+    #botao-converter button:hover {
+        width: 185px;
+        height: 45px;
+        margin-bottom: 35px;
     }
 }
 
